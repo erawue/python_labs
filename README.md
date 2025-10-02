@@ -46,7 +46,7 @@ hour = m // 60
 minut = m % 60
 print(f"{hour}:{minut:02d}")
 ```
-![alt text](images/img04.png)
+![alt text](images/lab01/img04.png)
 
 ## Задание 5
 # Инициалы и длина строки
