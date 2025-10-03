@@ -5,7 +5,7 @@
 ```
 name = input("Имя: ")
 age = int(input("Возраст: "))
-print(f"Привет, {name}! Через год тебе будет {age + 1}."typ)
+print(f"Привет, {name}! Через год тебе будет {age + 1}.")
 ```
 ![alt text](images/lab01/img01.png)
 
