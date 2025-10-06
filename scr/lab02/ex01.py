@@ -1,0 +1,46 @@
+# Задание А
+def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
+    if not nums:
+        return "ValueError"
+    min_ = nums[0]
+    max_ = nums[0]
+    for i in nums[1:]:
+        if i < min_:
+            min_ = i
+        if i > max_:
+            max_ = i
+    return (min_, max_)
+
+def unique_sorted(nums: list[float | int]) -> list[float | int]:
+    unique = []
+    for i in nums:
+        if i not in unique:
+            unique.append(i)
+    return sorted(unique)
+
+def flatten(mat: list[list | tuple]) -> list:
+    result = []
+    for i in mat:
+        if not isinstance(i, (list, tuple)):
+            return "TypeError"  
+        result.extend(i)
+    return result
+
+print("Тесты min_max:")
+print(min_max([3, -1, 5, 5, 0]))     # (-1, 5)
+print(min_max([42]))                 # (42, 42)
+print(min_max([-5, -2, -9]))         # (-9, -2)
+print(min_max([1.5, 2, 2.0, -3.1]))  # (-3.1, 2)
+print(min_max([]))                   # ValueError
+
+print("Тесты unique_sorted:")
+print(unique_sorted([3, 1, 2, 1, 3]))        # [1, 2, 3]
+print(unique_sorted([]))                     # []
+print(unique_sorted([-1, -1, 0, 2, 2]))      # [-1, 0, 2]
+print(unique_sorted([1.0, 1, 2.5, 2.5, 0]))  # [0, 1.0, 2.5]
+
+print("Тесты flatten:")
+print(flatten([[1, 2], [3, 4]]))        # [1, 2, 3, 4]
+print(flatten([[1, 2], [3, 4, 5]]))     # [1, 2, 3, 4, 5]
+print(flatten([[1], [], [2, 3]]))       # [1, 2, 3]
+print(flatten([[1, 2], "ab"]))          # TypeError
