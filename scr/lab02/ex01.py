@@ -8,12 +8,12 @@ def unique_sorted(nums: list[float | int]) -> list[float | int]:
     return sorted(set(nums))
 
 def flatten(mat: list[list | tuple]) -> list:
-    result = []
+    R = []
     for i in mat:
         if not isinstance(i, (list, tuple)):
             return "TypeError"  
-        result.extend(i)
-    return result
+        R.append(i)
+    return R
 
 print("Тесты min_max:")
 print(min_max([3, -1, 5, 5, 0]))     # (-1, 5)
