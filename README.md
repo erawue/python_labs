@@ -82,21 +82,10 @@ print(f"{k_off} {k_on}")
 def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
     if not nums:
         return "ValueError"
-    min_ = nums[0]
-    max_ = nums[0]
-    for i in nums[1:]:
-        if i < min_:
-            min_ = i
-        if i > max_:
-            max_ = i
-    return (min_, max_)
+    return (min(nums), max(nums))
 
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
-    unique = []
-    for i in nums:
-        if i not in unique:
-            unique.append(i)
-    return sorted(unique)
+    return sorted(set(nums))
 
 def flatten(mat: list[list | tuple]) -> list:
     result = []
@@ -105,7 +94,7 @@ def flatten(mat: list[list | tuple]) -> list:
             return "TypeError"  
         result.extend(i)
     return result
-
+    
 print("Тесты min_max:")
 print(min_max([3, -1, 5, 5, 0]))    
 print(min_max([42]))                
@@ -134,9 +123,8 @@ print(flatten([[1, 2], "ab"]))
 def transpose(mat: list[list[float | int]]) -> list[list]:
     if not mat:
         return [] # если матрица пустая
-    len_s = len(mat[0]) # длина первой строчки
     for i in mat:
-        if len(i) != len_s: 
+        if len(i) != len(mat[0]): 
             return "ValueError" # если строки разной длины
     R = []
     for i in range(len(mat[0])): # проходим по всем столбцам
@@ -149,29 +137,18 @@ def transpose(mat: list[list[float | int]]) -> list[list]:
 def row_sums(mat: list[list[float | int]]) -> list[float]:
     if not mat:
         return []
-    len_s = len(mat[0])
     for i in mat:
-        if len(i) != len_s:
+        if len(i) != len(mat[0]):
             return "ValueError"
-    R = []
-    for i in mat:
-        R.append(sum(i))
-    return R
+    return [sum(i) for i in mat]
 
 def col_sums(mat: list[list[float | int]]) -> list[float]:
     if not mat:
         return []
-    len_s = len(mat[0])
     for i in mat:
-        if len(i) != len_s:
+        if len(i) != len(mat[0]):
             return "ValueError"
-    R = []
-    for i in range(len(mat[0])):
-        sum_s = 0
-        for j in range(len(mat)):
-            sum_s += mat[j][i]
-        R.append(sum_s)
-    return R
+    return [sum(mat[i][j] for i in range(len(mat))) for j in range(len(mat[0]))]
 
 print("Тесты transpose:")
 print(transpose([[1, 2, 3]])) 
