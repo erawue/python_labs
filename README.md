@@ -118,7 +118,7 @@ print(flatten([[1, 2], "ab"]))
 ![alt text](images/lab02/img01.png)
 
 ## Задание B
-# Матрица
+# Матрицы
 ```
 #Задание B
 def transpose(mat: list[list[float | int]]) -> list[list]:
