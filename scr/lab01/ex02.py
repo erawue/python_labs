@@ -1,0 +1,6 @@
+a_ = input("a: ").replace(",", ".")
+b_ = input("b: ").replace(",", ".")
+a,b = float(a_),float(b_)
+su = round(a+b, 2)
+av = round((a+b)/2, 2)
+print(f"sum={su}; avg={av}")

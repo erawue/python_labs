@@ -1,0 +1,5 @@
+fio_ = input("ФИО: ")
+fio = ' '.join(fio_.split())
+inicial = ''.join([x[0].upper() for x in fio.split()])
+print("Инициалы:", inicial)
+print("Длина:", len(fio))
