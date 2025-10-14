@@ -73,6 +73,7 @@ print(f"{k_off} {k_on}")
 ```
 ![alt text](images/lab01/img06.png)
 
+
 # Лабораторная работа 2
 
 ## Задание A
