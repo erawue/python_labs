@@ -200,7 +200,6 @@ print(format_record((" сидорова вина сергеевна ", "ABB-01",
 ![alt text](images/lab02/img03.png)
 
 # Лабораторная работа 3
-
 ## Задание 1
 
 ```
