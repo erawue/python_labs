@@ -1,14 +1,16 @@
 import re
 from collections import Counter
 
-def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
-    text = re.sub(r'\s', ' ', text).strip()
-    text = text.casefold()
-    text = text.replace('ё', 'е').replace('Ё', 'Е')
-    return text
+def normalize(text: str) -> str:
+    text = text.lower()
+    # Убираем все знаки препинания
+    text = re.sub(r'[^\w\s]', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 def tokenize(text: str) -> list[str]:
-    return re.findall(r'\w+(?:-\w+)*', text)
+    # Просто разбиваем по пробелам
+    return text.split()
 
 def count_freq(tokens: list[str]) -> dict[str, int]:
     return dict(Counter(tokens))
