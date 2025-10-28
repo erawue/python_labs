@@ -360,9 +360,13 @@ for word, count in sorted_counts[:5]:
 ## Результат
 ### входные данные 
 ![alt text](images/lab05/img03.png)
+
 ![alt text](images/lab05/img04.png)
+
 ![alt text](images/lab05/img05.png)
 ### выходные данные
 ![alt text](images/lab05/img06.png)
+
 ![alt text](images/lab05/img07.png)
+
 ![alt text](images/lab05/img08.png)
