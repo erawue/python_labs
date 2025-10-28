@@ -347,10 +347,23 @@ for word, count in sorted_counts[:5]:
   Каждая строка → словарь
  
 ![alt text](images/lab05/img01.png)
+## Результат
+### входные данные 
+![alt text](images/lab05/img03.png)
+
+![alt text](images/lab05/img04.png)
+
+### выходные данные
+![alt text](images/lab05/img06.png)
+
+![alt text](images/lab05/img07.png)
 
 ## Задание B
 # CSV → XLSX
 [csv_xlsx.py](src/lab05/csv_xlsx.py)
+
+## Установка зависимостей:
+```pip install openpyxl```
 
 • **csv_to_xlsx(csv_path, xlsx_path)**  
   Конвертирует CSV-файл в XLSX формат.
@@ -359,14 +372,7 @@ for word, count in sorted_counts[:5]:
 
 ## Результат
 ### входные данные 
-![alt text](images/lab05/img03.png)
-
-![alt text](images/lab05/img04.png)
-
 ![alt text](images/lab05/img05.png)
+
 ### выходные данные
-![alt text](images/lab05/img06.png)
-
-![alt text](images/lab05/img07.png)
-
 ![alt text](images/lab05/img08.png)
