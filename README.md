@@ -332,4 +332,37 @@ for word, count in sorted_counts[:5]:
 ```
 ![alt text](images/lab04/img03.png)
 ![alt text](images/lab04/img04.png)
-<!-- Lab04 completed on 20.10.2025 -->
+
+# Лабораторная работа 5
+## Задание A
+# JSON ↔ CSV
+[json_csv.py](src/lab05/json_csv.py)
+
+• **json_to_csv(json_path, csv_path)**  
+  Конвертирует JSON-файл в CSV формат.
+  Объединение ключей → столбцы
+
+• **csv_to_json(csv_path, json_path)**  
+  Конвертирует CSV-файл в JSON формат.
+  Каждая строка → словарь
+ 
+![alt text](images/lab05/img01.png)
+
+## Задание B
+# CSV → XLSX
+[csv_xlsx.py](src/lab05/csv_xlsx.py)
+
+• **csv_to_xlsx(csv_path, xlsx_path)**  
+  Конвертирует CSV-файл в XLSX формат.
+
+![alt text](images/lab05/img02.png)
+
+## Результат
+### входные данные 
+![alt text](images/lab05/img03.png)
+![alt text](images/lab05/img04.png)
+![alt text](images/lab05/img05.png)
+### выходные данные
+![alt text](images/lab05/img06.png)
+![alt text](images/lab05/img07.png)
+![alt text](images/lab05/img08.png)
