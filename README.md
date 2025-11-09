@@ -262,7 +262,7 @@ for word, count in top:
 ![alt text](images/lab03/img02.png)
 
 
-# Лабораторная работа 4
+# Лабораторная работа 4 — Файлы
 ## Задание A
 
 ```
@@ -333,7 +333,7 @@ for word, count in sorted_counts[:5]:
 ![alt text](images/lab04/img03.png)
 ![alt text](images/lab04/img04.png)
 
-# Лабораторная работа 5
+# Лабораторная работа 5 — JSON и конвертации
 ## Задание A
 # JSON ↔ CSV
 [json_csv.py](src/lab05/json_csv.py)
@@ -376,3 +376,24 @@ for word, count in sorted_counts[:5]:
 
 ### выходные данные
 ![alt text](images/lab05/img08.png)
+
+
+# Лабораторная работа 6 — CLI‑утилиты с argparse
+- [cli_text.py](src/lab06/cli_text.py)
+
+- [cli_convert.py](src/lab06/cli_convert.py)
+
+## Результат
+- **cli_text**
+![alt text](images/lab06/img01.png)
+![alt text](images/lab06/img02.png)
+![alt text](images/lab06/img03.png)
+
+- **cli_convert**
+![alt text](images/lab06/img04.png)
+
+![alt text](images/lab06/img05.png)
+
+![alt text](images/lab06/img06.png)
+
+![alt text](images/lab06/img07.png)

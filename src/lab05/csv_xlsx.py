@@ -39,6 +39,6 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
 
 if __name__ == "__main__":
     print("Тестируем CSV → XLSX...")
-    csv_to_xlsx("data/samples/people.csv", "data/out/people.xlsx")
-    csv_to_xlsx("data/samples/cities.csv", "data/out/cities_from_csv.xlsx")
+    csv_to_xlsx("data/lab05/samples/people.csv", "data/lab05/out/people.xlsx")
+    csv_to_xlsx("data/lab05/samples/cities.csv", "data/lab05/out/cities_from_csv.xlsx")
     print("Готово!")
