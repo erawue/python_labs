@@ -390,6 +390,7 @@ for word, count in sorted_counts[:5]:
 ![alt text](images/lab06/img03.png)
 
 - **cli_convert**
+
 ![alt text](images/lab06/img04.png)
 
 ![alt text](images/lab06/img05.png)
