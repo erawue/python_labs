@@ -409,6 +409,9 @@ for word, count in sorted_counts[:5]:
 
 - [json_csv.py](src/lab07/json_csv.py)
 
+## pyproject.toml
+![alt text](images/lab07/img04.png)
+
 ## Вывод тестов
 ![alt text](images/lab07/img03.png)
 
@@ -417,3 +420,4 @@ for word, count in sorted_counts[:5]:
 
 ## Результаты проверки стиля black
 ![alt text](images/lab07/img01.png)
+
