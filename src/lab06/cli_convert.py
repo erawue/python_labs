@@ -2,11 +2,12 @@ import argparse
 import sys
 import os
 
-lab05_path = os.path.join(os.path.dirname(__file__), '..', 'lab05')
+lab05_path = os.path.join(os.path.dirname(__file__), "..", "lab05")
 sys.path.append(lab05_path)
 
 from json_csv import json_to_csv, csv_to_json
 from csv_xlsx import csv_to_xlsx
+
 
 def main():
     parser = argparse.ArgumentParser(description="Конвертеры данных")
@@ -32,7 +33,8 @@ def main():
     elif args.cmd == "csv2json":
         csv_to_json(args.input, args.output)
     elif args.cmd == "csv2xlsx":
-            csv_to_xlsx(args.input, args.output)
+        csv_to_xlsx(args.input, args.output)
+
 
 if __name__ == "__main__":
     main()

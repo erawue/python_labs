@@ -385,6 +385,10 @@ for word, count in sorted_counts[:5]:
 
 ## Результат
 - **cli_text**
+![](./images/lab06/img01.png)
+
+
+
 ![alt text](images/lab06/img01.png)
 ![alt text](images/lab06/img02.png)
 ![alt text](images/lab06/img03.png)
@@ -398,3 +402,18 @@ for word, count in sorted_counts[:5]:
 ![alt text](images/lab06/img06.png)
 
 ![alt text](images/lab06/img07.png)
+
+# Лабораторная работа 7 — Тестирование: pytest + стиль
+
+- [test_text.py](src/lab07/test_text.py)
+
+- [json_csv.py](src/lab07/json_csv.py)
+
+## Вывод тестов
+![alt text](images/lab07/img03.png)
+
+## Результаты покрытия
+![alt text](images/lab07/img02.png)
+
+## Результаты проверки стиля black
+![alt text](images/lab07/img01.png)

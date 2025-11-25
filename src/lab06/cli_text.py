@@ -23,21 +23,21 @@ def main():
     if args.command == "cat":
         # Реализация команды cat
         file_path = args.input
-        
+
         if not Path(file_path).exists():
             print(f"Ошибка: файл {file_path} не найден")
             sys.exit(1)
-            
+
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                
+
             for i, line in enumerate(lines, 1):
                 if args.n:
-                    print(f"{i}: {line}", end='')
+                    print(f"{i}: {line}", end="")
                 else:
-                    print(line, end='')
-                    
+                    print(line, end="")
+
         except Exception as e:
             print(f"Ошибка: {e}")
             sys.exit(1)
@@ -45,28 +45,28 @@ def main():
     elif args.command == "stats":
         # Реализация команды stats
         file_path = args.input
-        
+
         if not Path(file_path).exists():
             print(f"Ошибка: файл {file_path} не найден")
             sys.exit(1)
-            
+
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 text = f.read()
-                
+
             # Очистка текста и разбивка на слова
             words = text.lower().split()
             words = [word.strip('.,!?;:()"') for word in words if len(word) > 2]
-            
+
             # Подсчет частот
             word_counts = Counter(words)
             top_words = word_counts.most_common(args.top)
-            
+
             # Вывод результатов
             print(f"Топ-{args.top} самых частых слов:")
             for i, (word, count) in enumerate(top_words, 1):
                 print(f"{i}. {word} — {count}")
-                
+
         except Exception as e:
             print(f"Ошибка: {e}")
             sys.exit(1)
