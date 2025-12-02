@@ -421,3 +421,16 @@ for word, count in sorted_counts[:5]:
 ## Результаты проверки стиля black
 ![alt text](images/lab07/img01.png)
 
+# Лабораторная работа 8 – ООП в Python: @dataclass Student, методы и сериализация
+- [models.py](src/lab08/models.py)
+    ### Класс данных для представления студента с использованием @dataclass.
+    ![alt text](images/lab08/img01.png)
+
+
+- [serialize.py](src/lab08/serialize.py)
+    ### Сериализует список студентов в JSON файл.
+    ![alt text](images/lab08/img02.png)
+    #### students_input.json
+    ![alt text](images/lab08/img03.png)
+    #### students_output.json
+    ![alt text](images/lab08/img04.png)
