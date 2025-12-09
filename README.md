@@ -434,3 +434,23 @@ for word, count in sorted_counts[:5]:
     ![alt text](images/lab08/img03.png)
     #### students_output.json
     ![alt text](images/lab08/img04.png)
+
+# Лабораторная работа 9 — «База данных» на CSV
+#### Класс Group с операциями CRUD для работы с CSV
+- [group.py](src/lab09/group.py)
+#### CSV файл со студентами
+- [students.csv](data/lab09/students.csv)
+### Пример использования
+```
+if __name__ == "__main__":
+    group = Group("data/lab09/students.csv")
+
+    group.add(Student(fio="Васильев Василий Васильевич", birthdate="2006.12.16", group="BIVT-24", gpa=4.6))
+    group.add(Student(fio="Ильин Илья Ильич", birthdate="2007.05.15", group="BIVT-25", gpa=4.7))
+    group.add(Student(fio="Алексеев Алексей Алексеевич", birthdate="2005.01.01", group="BIVT-23", gpa=4.8))
+    group.print_with_age()
+```
+![alt text](images/lab09/img01.png)
+![alt text](images/lab09/img02.png)
+![alt text](images/lab09/img03.png)
+![alt text](images/lab09/img04.png)
