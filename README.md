@@ -81,6 +81,6 @@ CLI‑скрипты с подкомандами:
 [README.md](src/lab09/README.md) — полное описание заданий и скриншотов 
 
 - [group.py](src/lab09/group.py)
-g
+
 Примеры данных
  - [students](data/lab09/students.csv) — CSV файл со студентами
