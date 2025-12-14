@@ -37,7 +37,7 @@ print("\nТест тай-брейка")
 freq2 = count_freq(["bb", "aa", "bb", "aa", "cc"])
 print(top_n(freq2, 2))
 ```
-![alt text](images/lab03/img01.png)
+![alt text](../../images/lab03/img01.png)
 
 ## Задание 2
 
@@ -62,4 +62,4 @@ print('Топ-5:')
 for word, count in top:
     print(f'{word}:{count}')
 ```
-![alt text](images/lab03/img02.png)
+![alt text](../../images/lab03/img02.png)

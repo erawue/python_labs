@@ -28,8 +28,8 @@ if __name__ == "__main__":
     txt = read_text("data/lab04/input.txt")
     write_csv([("word", "count"), ("test", 3)], "data/lab04/check.csv")
 ```
-![alt text](images/lab04/img01.png)
-![alt text](images/lab04/img02.png)
+![alt text](../../images/lab04/img01.png)
+![alt text](../../images/lab04/img02.png)
 
 ## Задание B
 
@@ -66,5 +66,5 @@ print("Топ-5:")
 for word, count in sorted_counts[:5]:
     print(f"  {word}: {count}")
 ```
-![alt text](images/lab04/img03.png)
-![alt text](images/lab04/img04.png)
+![alt text](../../images/lab04/img03.png)
+![alt text](../../images/lab04/img04.png)

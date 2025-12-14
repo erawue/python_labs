@@ -4,14 +4,14 @@
 
 - [json_csv.py](src/lab07/json_csv.py)
 
-## pyproject.toml
-![alt text](images/lab07/img04.png)
+ - **pyproject.toml**
+![alt text](../../images/lab07/img04.png)
 
 ## Вывод тестов
-![alt text](images/lab07/img03.png)
+![alt text](../../images/lab07/img03.png)
 
 ## Результаты покрытия
-![alt text](images/lab07/img02.png)
+![alt text](../../images/lab07/img02.png)
 
 ## Результаты проверки стиля black
-![alt text](images/lab07/img01.png)
+![alt text](../../images/lab07/img01.png)

@@ -131,20 +131,20 @@ if __name__ == "__main__":
 
 ## Результат
 - **cli_text**
-![](./images/lab06/img01.png)
 
 
 
-![alt text](images/lab06/img01.png)
-![alt text](images/lab06/img02.png)
-![alt text](images/lab06/img03.png)
+
+![alt text](../../images/lab06/img01.png)
+![alt text](../../images/lab06/img02.png)
+![alt text](../../images/lab06/img03.png)
 
 - **cli_convert**
 
-![alt text](images/lab06/img04.png)
+![alt text](../../images/lab06/img04.png)
 
-![alt text](images/lab06/img05.png)
+![alt text](../../images/lab06/img05.png)
 
-![alt text](images/lab06/img06.png)
+![alt text](../../images/lab06/img06.png)
 
-![alt text](images/lab06/img07.png)
+![alt text](../../images/lab06/img07.png)

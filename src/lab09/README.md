@@ -160,7 +160,7 @@ if __name__ == "__main__":
     group.print_with_age()
 ```
 
-CSV файл со студентами
+**CSV файл со студентами**
 - [students.csv](data/lab09/students.csv)
 
 ### Пример использования
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     group.add(Student(fio="Алексеев Алексей Алексеевич", birthdate="2005.01.01", group="BIVT-23", gpa=4.8))
     group.print_with_age()
 ```
-![alt text](images/lab09/img01.png)
-![alt text](images/lab09/img02.png)
-![alt text](images/lab09/img03.png)
-![alt text](images/lab09/img04.png)
+![alt text](../../images/lab09/img01.png)
+![alt text](../../images/lab09/img02.png)
+![alt text](../../images/lab09/img03.png)
+![alt text](../../images/lab09/img04.png)

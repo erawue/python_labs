@@ -69,18 +69,18 @@ if __name__ == "__main__":
   Конвертирует CSV-файл в JSON формат.
   Каждая строка → словарь
  
-![alt text](images/lab05/img01.png)
+![alt text](../../images/lab05/img01.png)
 ## Результат
 
 ### входные данные 
-![alt text](images/lab05/img03.png)
+![alt text](../../images/lab05/img03.png)
 
-![alt text](images/lab05/img04.png)
+![alt text](../../images/lab05/img04.png)
 
 ### выходные данные
-![alt text](images/lab05/img06.png)
+![alt text](../../images/lab05/img06.png)
 
-![alt text](images/lab05/img07.png)
+![alt text](../../images/lab05/img07.png)
 
 ## Задание B
  - CSV → XLSX
@@ -139,11 +139,11 @@ if __name__ == "__main__":
 • **csv_to_xlsx(csv_path, xlsx_path)**  
   Конвертирует CSV-файл в XLSX формат.
 
-![alt text](images/lab05/img02.png)
+![alt text](../../images/lab05/img02.png)
 
 ## Результат
 ### входные данные 
-![alt text](images/lab05/img05.png)
+![alt text](../../images/lab05/img05.png)
 
 ### выходные данные
-![alt text](images/lab05/img08.png)
+![alt text](../../images/lab05/img08.png)
