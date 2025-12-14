@@ -24,6 +24,7 @@
 
 # Лабораторная работа 4 — Файлы
 [README.md](src/lab04/README.md) — полное описание заданий и скриншотов 
+
  - [io_txt_csv](src/lab04/io_txt_csv)
  - [text_report](src/lab04/text_report)
 
@@ -38,6 +39,7 @@
  - [CSV -> XLSX](src/lab05/csv_xlsx.py)
 
 Результаты и примеры входных данных
+
  - [output](data/lab05/out)
  - [samples](data/lab05/samples)
 
