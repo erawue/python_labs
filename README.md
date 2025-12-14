@@ -86,10 +86,12 @@ CLI‑скрипты с подкомандами:
 [README.md](src/lab08/README.md) — полное описание заданий и скриншотов 
 
 Класс данных для представления студента с использованием @dataclass.
-- [models.py](src/lab08/models.py) 
 
- функции сериализации/десериализации в JSON файл.
-- [serialize.py](src/lab08/serialize.py)
+
+- [models.py](src/lab08/models.py) —  класс Student с валидацией данных
+
+ 
+- [serialize.py](src/lab08/serialize.py) — функции сериализации/десериализации в JSON файл.
 
 Примеры данных
  - [students](data/lab08) — JSON файлы со студентами
