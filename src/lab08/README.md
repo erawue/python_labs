@@ -112,7 +112,9 @@ if __name__ == "__main__":
     ![alt text](../../images/lab08/img02.png)
     
 **students_input.json**
-    ![alt text](../../images/lab08/img03.png)
+
+![alt text](../../images/lab08/img03.png)
 
 **students_output.json**
-    ![alt text](../../images/lab08/img04.png)
+
+![alt text](../../images/lab08/img04.png)
