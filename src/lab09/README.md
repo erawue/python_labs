@@ -162,6 +162,7 @@ if __name__ == "__main__":
 
 CSV файл со студентами
 - [students.csv](data/lab09/students.csv)
+
 ### Пример использования
 ```
 if __name__ == "__main__":
