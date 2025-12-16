@@ -46,7 +46,7 @@
      - Больше памяти на узел
 
 ### Код реализации
-Stack и Queue
+**Stack и Queue**
 
 ```
 """
@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
 ![alt text](../../images/lab10/img01.png)
 
-SinglyLinkedList 
+**SinglyLinkedList**
 
 ```
 """
