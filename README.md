@@ -104,7 +104,7 @@ CLI‑скрипты с подкомандами:
 
 - [group.py](src/lab09/group.py)
 
-*Примеры данных*
+Примеры данных
  - [students](data/lab09/students.csv) — CSV файл со студентами
 
 # Лабораторная работа 10 — Структуры данных: Stack, Queue, Linked List и бенчмарки
