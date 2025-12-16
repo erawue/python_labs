@@ -110,8 +110,8 @@ CLI‑скрипты с подкомандами:
 # Лабораторная работа 10 — Структуры данных: Stack, Queue, Linked List и бенчмарки
 *Цель: Реализовать основные структуры данных (стек, очередь, связный список), чтобы понять принцип их работы и эффективность операций.*
 
-[README.md](src/lab010/README.md) — полное описание заданий и скриншотов 
+[README.md](src/lab10/README.md) — полное описание заданий и скриншотов 
 
-- [structures.py](src/lab010/structures.py) — Реализация Stack и Queue на базе list и deque с операциями O(1)
-- [linked_list.py](src/lab010/linked_list.py) — Односвязный список с поддержкой head/tail для быстрых вставок
+- [structures.py](src/lab10/structures.py) — Реализация Stack и Queue на базе list и deque с операциями O(1)
+- [linked_list.py](src/lab10/linked_list.py) — Односвязный список с поддержкой head/tail для быстрых вставок
 
