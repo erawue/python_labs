@@ -112,7 +112,7 @@ class SinglyLinkedList:
     
     
 if __name__ == "__main__":
-    print("=== Демонстрация работы связного списка ===")
+    print(" Демонстрация работы связного списка ")
     
     lst = SinglyLinkedList()
     print(f"1. Создан пустой список: {lst}")

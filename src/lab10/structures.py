@@ -65,7 +65,7 @@ class Queue:
         return f"Queue({list(self._data)})"
     
 if __name__ == "__main__":
-    print("=== Демонстрация работы стека ===")
+    print(" Демонстрация работы стека ")
     stack = Stack()
     stack.push(1)
     stack.push(2)
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     print(f"Вершина: {stack.peek()}")
     print(f"Извлечено: {stack.pop()}")
     
-    print("\n=== Демонстрация работы очереди ===")
+    print("\n Демонстрация работы очереди ")
     queue = Queue()
     queue.enqueue('A')
     queue.enqueue('B')
