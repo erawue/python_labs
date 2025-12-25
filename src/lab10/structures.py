@@ -1,30 +1,23 @@
-"""
-Реализация Stack и Queue
-"""
+# Реализация Stack и Queue
 from collections import deque
 
 class Stack:
-    """Стек (LIFO) на базе list"""
     
     def __init__(self):
         self._data = []
     
     def push(self, item):
-        """Добавить элемент O(1)"""
         self._data.append(item)
     
     def pop(self):
-        """Снять элемент O(1)"""
         if not self._data:
             raise IndexError("Стек пуст")
         return self._data.pop()
     
     def peek(self):
-        """Вершина стека O(1)"""
         return self._data[-1] if self._data else None
     
     def is_empty(self):
-        """Проверка пустоты O(1)"""
         return len(self._data) == 0
     
     def __len__(self):
@@ -35,27 +28,21 @@ class Stack:
 
 
 class Queue:
-    """Очередь (FIFO) на базе deque"""
-    
     def __init__(self):
         self._data = deque()
     
     def enqueue(self, item):
-        """Добавить в конец O(1)"""
         self._data.append(item)
     
     def dequeue(self):
-        """Взять из начала O(1)"""
         if not self._data:
             raise IndexError("Очередь пуста")
         return self._data.popleft()
     
     def peek(self):
-        """Первый элемент O(1)"""
         return self._data[0] if self._data else None
     
     def is_empty(self):
-        """Проверка пустоты O(1)"""
         return len(self._data) == 0
     
     def __len__(self):
