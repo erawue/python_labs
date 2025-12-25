@@ -1,10 +1,6 @@
-"""
-Реализация односвязного списка
-"""
+# Реализация односвязного списка
 
 class Node:
-    """Узел списка"""
-    
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
@@ -14,7 +10,6 @@ class Node:
 
 
 class SinglyLinkedList:
-    """Односвязный список"""
     
     def __init__(self):
         self.head = None
@@ -22,7 +17,6 @@ class SinglyLinkedList:
         self._size = 0
     
     def append(self, value):
-        """Добавить в конец O(1)"""
         new_node = Node(value)
         if not self.head:
             self.head = new_node
@@ -33,7 +27,6 @@ class SinglyLinkedList:
         self._size += 1
     
     def prepend(self, value):
-        """Добавить в начало O(1)"""
         new_node = Node(value, self.head)
         self.head = new_node
         if not self.tail:
@@ -41,7 +34,6 @@ class SinglyLinkedList:
         self._size += 1
     
     def insert(self, idx, value):
-        """Вставить по индексу O(n)"""
         if idx < 0 or idx > self._size:
             raise IndexError(f"Индекс {idx} вне диапазона")
         
@@ -58,7 +50,6 @@ class SinglyLinkedList:
             self._size += 1
     
     def remove(self, value):
-        """Удалить по значению O(n)"""
         if not self.head:
             return False
         
@@ -82,7 +73,6 @@ class SinglyLinkedList:
         return False
     
     def get(self, idx):
-        """Получить по индексу O(n)"""
         if idx < 0 or idx >= self._size:
             raise IndexError(f"Индекс {idx} вне диапазона")
         
@@ -92,7 +82,6 @@ class SinglyLinkedList:
         return current.value
     
     def __iter__(self):
-        """Итератор по значениям"""
         current = self.head
         while current:
             yield current.value
@@ -102,7 +91,6 @@ class SinglyLinkedList:
         return self._size
     
     def __str__(self):
-        """Визуальное представление"""
         nodes = []
         current = self.head
         while current:
